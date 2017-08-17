@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Give me the deets</title>
+</head>
+
+<body>
+  <form action="/login" method="post">
+    <label for="userNameId">Username:</label>
+    <input type="text" id="userNameId" name="username">
+    <label for="passWordId">Password:</label>
+    <input type="text" id="passWordId" name="password">
+    <input type="submit" name="Login">
+  </form>
+  <form  action="/gosignup" method="post">
+    <input type="submit" name="signupButton" value="Sign up with us!">
+  </form>
+  <form action="/clicked" method="post">
+    <input type="submit" name="Click" value="Click Me!">
+    <label>{{cookies}}</label>
+  </form>
+</body>
+
+</html>
+<!-- https://tinyurl.com/z8t4576 -->
